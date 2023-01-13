@@ -7,6 +7,10 @@ public class PollController : ControllerBase
 
     }
 
-
+    public ActionResult<int> Poll()
+    {
+        var rand = new Random();
+        return Ok(rand.Next());
+    }
 
 }
