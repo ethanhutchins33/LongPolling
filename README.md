@@ -1,6 +1,6 @@
 # LongPolling Example
 
-Angular frontend, ASP.NET Core Web API backend
+A simple example application that uses an Angular frontend to long poll an ASP.NET Core Web API backend every 1000ms for a new random number and display it to the page.
 
 ## UI
 
