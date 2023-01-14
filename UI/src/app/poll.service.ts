@@ -1,4 +1,4 @@
-import { PollResponseDto } from './polling-service/PollResponseDto';
+import { PollResponseDto } from './models/PollResponseDto';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
