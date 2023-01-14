@@ -8,7 +8,6 @@ import { Observable } from 'rxjs';
 })
 export class PollService {
   private ApiUrl: string = 'http://localhost:5007/api/poll';
-  private intervalId: NodeJS.Timeout | undefined;
 
   constructor(private http: HttpClient) {}
 
