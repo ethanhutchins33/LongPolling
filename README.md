@@ -16,4 +16,4 @@ This is an ASP.NET Core 7 Web API project.
 
 Switch to the API project folder `cd API`.
 
-Run `dotnet run` for a dev local dev server. You may need to find the URL within the output of the application and place this into the angular application within `poll.service.ts`.
+Run `dotnet run` for a local dev server. You may need to find the URL within the output of the application and place this into the angular application within `poll.service.ts`.
